@@ -1,0 +1,61 @@
+﻿.clear{
+	/**因头部有utf8文件头编码，故第一个样式不能正常使用，设置一个多余样式予以清除**/
+}
+.excelDefaults { 
+    background-color: white;  
+    color: black;  
+    text-decoration: none;  
+    direction: ltr;  
+    text-transform: none;  
+    text-indent: 0;  
+    letter-spacing: 0;  
+    word-spacing: 0;  
+    white-space: normal;  
+    unicode-bidi: normal;  
+    background-image: none;  
+    text-shadow: none;  
+    list-style-image: none;  
+    list-style-type: none;  
+    padding: 0;  
+    margin: 0;  
+    border-collapse: collapse;  
+    font-style: normal;  
+    font-family: 宋体;  
+    font-variant: normal;  
+    font-weight: normal;  
+    font-size: 10pt;  
+    text-align: left;  
+      
+}  
+  
+.excelDefaults td {  
+    /*padding: 1px 5px;*/  
+    /* border: 1px solid black;   */
+    border: none;
+    border-top: 1px solid;
+    border-left: 1px solid;
+}
+.excelDefaults tr {
+    border: none;
+}
+.excelDefaults table {
+    border: none;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+}      
+  
+.excelDefaults .colHeader {  
+    background-color: silver;  
+    font-weight: bold;  
+    border: 1px solid black;  
+    text-align: center;  
+    padding: 1px 5px;  
+}  
+  
+.excelDefaults .rowHeader {  
+    background-color: silver;  
+    font-weight: bold;  
+    border: 1px solid black;  
+    text-align: right;  
+    padding: 1px 5px;  
+}  
